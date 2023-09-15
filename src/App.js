@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       {showEmployees ? (
         <>
-          <Employee />
-          <Employee />
-          <Employee />
+          <Employee name="Michael" role="intern" />
+          <Employee name="Abby" />
+          <Employee name="John" />
         </>
       ) : (
         <p>You can't view the Employees</p>
